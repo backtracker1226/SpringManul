@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+  
+  <configuration>
+  <!-- mapper를 불러 와야 한다. 다른 처리를 위해 주석 처리 -->
+<!--   <mappers>
+  <mapper resource="mappers/TimeMapper.xml"/>
+  </mappers> -->
+  <typeAliases>
+  <package name="org.backtracker.domain"/>
+  </typeAliases>
+  
+  </configuration>
